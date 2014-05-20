@@ -1,0 +1,95 @@
+<div ng-controller="MainCtrl">
+
+
+<header>
+  
+  <h1 class="pull-left">The Cookie Store</h1>
+
+  <nav class="pull-right">
+    
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Products</a></li>
+
+      <li><a href="#">Cart</a></li>
+    </ul>
+
+  </nav>
+
+<div class="clear"></div>
+
+</header><!--end header-->
+
+
+
+<div class="featuredcookie">
+
+  <div class="row">
+    
+    <div class="col-md-6">
+
+
+      <img src="http://placehold.it/300x300" alt="">
+      
+
+
+    </div><!--end col md 6-->
+
+    <div class="col-md-6">
+      
+      <h2>Featured Cookie: The Dev</h2>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, suscipit, voluptate, eius, numquam accusantium asperiores fugit maxime eum necessitatibus ex facere id mollitia soluta sunt illo adipisci quae enim praesentium!</p>
+
+      <button class="pull-right">Order Now</button>
+
+
+
+    </div><!--end col md 6-->
+
+
+
+
+  </div><!--end row-->
+  
+
+
+
+
+
+</div><!--end featured cookie-->
+
+
+<div class="hproducts">
+  
+      <h3>Delicious Cookies</h3>
+
+
+
+      <div class="row">
+        
+          <div class="col-md-3" data-ng-repeat="name in cookieType">
+            
+            
+              
+              <h4>{{cookieType.name}}</h4>
+
+
+          </div><!--end product-->
+
+         
+
+
+      </div><!--end row-->
+
+
+
+
+</div><!--end h products-->
+
+
+
+<footer></footer>
+
+
+</div><!--end controller wrap-->
