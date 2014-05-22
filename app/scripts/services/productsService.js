@@ -1,5 +1,5 @@
-angular.module('theCookieStore')
-	.factory('PostsService', function($resource){
+angular.module('ngday2App')
+	.factory('ProductsService', function($resource){
 		return $resource('http://tiy-fee-rest.herokuapp.com/collections/theCookieStore', {},
 			{
 				getAllProducts: {

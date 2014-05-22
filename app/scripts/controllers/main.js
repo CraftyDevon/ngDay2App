@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('theCookieStore')
+angular.module('ngday2App')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

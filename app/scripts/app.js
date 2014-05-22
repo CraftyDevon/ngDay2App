@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('theCookieStore', [
+angular.module('ngday2App', [
     'ngCookies',
     'ngResource',
     'ngSanitize',
@@ -12,7 +12,7 @@ angular.module('theCookieStore', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-        .when('/newcookie', {
+        .when('/addProduct', {
         templateUrl: 'views/addProduct.html',
         controller: 'ProductCtrl'
       })
@@ -26,6 +26,10 @@ angular.module('theCookieStore', [
       })
       .when('/cart', {
         templateUrl: 'views/cart.html',
+        controller: 'ProductCtrl'
+      })
+          .when('/about', {
+        templateUrl: 'views/about.html',
         controller: 'ProductCtrl'
       })
       .otherwise({

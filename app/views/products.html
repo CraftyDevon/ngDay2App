@@ -1,0 +1,9 @@
+<button ng-click="addPost()" class="btn btn-success">Add Post</button>
+<article ng-repeat="cookie in cookies">
+	
+		<h2>{{cookie.name}}</h2>
+		<p>{{cookie.description}}</p>
+		<p><a href="#/{{cookie._id}}">View More</a></p>
+	<hr>
+</article>
+
