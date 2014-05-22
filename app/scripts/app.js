@@ -13,7 +13,7 @@ angular.module('theCookieStore', [
         controller: 'MainCtrl'
       })
         .when('/newcookie', {
-        templateUrl: 'views/store/addProduct.html',
+        templateUrl: 'views/addProduct.html',
         controller: 'ProductCtrl'
       })
       .when('/product/:id', {
@@ -21,7 +21,7 @@ angular.module('theCookieStore', [
         controller: 'ProductCtrl'
       })
       .when('/product/:id/edit', {
-        templateUrl: 'views/blog/editProduct.html',
+        templateUrl: 'views/editProduct.html',
         controller: 'ProductCtrl'
       })
       .when('/cart', {
