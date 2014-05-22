@@ -16,6 +16,10 @@ angular.module('ngday2App', [
         templateUrl: 'views/addProduct.html',
         controller: 'ProductCtrl'
       })
+        .when('/products', {
+        templateUrl: 'views/products.html',
+        controller: 'ProductCtrl'
+      })
       .when('/product/:id', {
         templateUrl: 'views/detail.html',
         controller: 'ProductCtrl'

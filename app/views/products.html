@@ -1,4 +1,34 @@
-<button ng-click="addPost()" class="btn btn-success">Add Post</button>
+<header>
+  
+  <h1 class="pull-left">The Cookie Store</h1>
+
+  <nav class="pull-right">
+    <ul>
+      <li><a href="#/main.html">Home</a></li>
+
+      <li><a href="#/about">About</a></li>
+      <li><a href="#/addProduct">Add A Product</a></li>
+
+      <li><a href="#/products">Products</a></li>
+
+      <li><a href="#/cart">Cart</a></li>
+    </ul>
+
+
+  </nav>
+
+<div class="clear"></div>
+
+</header><!--end header-->
+
+
+
+
+<div class="row">
+
+  <div class="col-md-12">
+
+  <button ng-click="addProduct()" class="btn btn-success">Add New Product</button>
 <article ng-repeat="cookie in cookies">
 	
 		<h2>{{cookie.name}}</h2>
@@ -6,4 +36,15 @@
 		<p><a href="#/{{cookie._id}}">View More</a></p>
 	<hr>
 </article>
+
+
+  
+</div>
+</div><!--end row-->
+
+
+
+
+<footer></footer>
+
 

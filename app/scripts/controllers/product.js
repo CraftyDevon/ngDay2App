@@ -1,7 +1,7 @@
 angular.module('ngday2App')
 	.controller('ProductCtrl', ['$scope', '$routeParams', '$location', 'ProductService', function($scope, $routeParams, $location, ProductService) {
 		
-		$scope.product = PostProduct.showProduct({ id: $routeParams.id });
+		$scope.product = ProductService.showProduct({ id: $routeParams.id });
 
 		$scope.updateProduct = function() {
 			ProductService.updateProduct($scope.product);

@@ -3,11 +3,11 @@ angular.module('ngday2App')
 
 		$scope.products = ProductService.getAllProducts();
 		$scope.addProduct = function() {
-			$location.path('/');
+			$location.path('/addProduct');
 		};
 		$scope.createProduct = function(product) {
 			ProductService.createNewProduct(product);
-			$location.path('/');
+			$location.path('/cookies');
 		};
 
 
