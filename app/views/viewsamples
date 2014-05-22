@@ -1,0 +1,31 @@
+ <div class="col-md-3">
+              
+               <img src="http://placehold.it/150x150" alt="">
+
+            <h5>The Chocolate Express</h5>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, culpa quis asperiores quae ame.</p>
+
+
+          </div><!--end product-->
+
+          <div class="col-md-3">
+            
+            <img src="http://placehold.it/150x150" alt="">
+
+            <h5>The Chocolate Express</h5>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, culpa quis asperiores quae ame.</p>
+
+          </div><!--end product-->
+
+          <div class="col-md-3">
+            
+           <img src="http://placehold.it/150x150" alt="">
+
+            <h5>The Chocolate Express</h5>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, culpa quis asperiores quae ame.</p>
+
+
+          </div><!--end product-->

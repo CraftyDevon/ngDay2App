@@ -1,0 +1,50 @@
+<div ng-controller="detailCrtl">
+
+
+
+<div class="productDetails">
+	
+	 <div class="row">
+    
+    <div class="col-md-6">
+
+
+      <img src="http://placehold.it/300x300" alt="">
+      
+
+
+    </div><!--end col md 6-->
+
+    <div class="col-md-6">
+      
+      <h2>The Dev</h2>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, suscipit, voluptate, eius, numquam accusantium asperiores fugit maxime eum necessitatibus ex facere id mollitia soluta sunt illo adipisci quae enim praesentium!</p>
+
+      <button class="pull-right">Order Now</button>
+
+
+
+    </div><!--end col md 6-->
+
+
+
+
+  </div><!--end row-->
+
+
+
+
+</div><!--end product details-->
+
+
+
+</div><!--end detail control-->
+
+
+<div class="reviews">
+
+
+</div><!--end reviews-->
+
+

@@ -68,14 +68,24 @@
 
       <div class="row">
         
-          <div class="col-md-3" data-ng-repeat="name in cookieType">
+          
             
             
+              <div class="col-md-3" data-ng-repeat="cookie in cookieType">
+
+              <img src="{{cookie.thumb}}" alt="">
               
-              <h4>{{cookieType.name}}</h4>
+              <h5>{{cookie.name}}</h5>
+
+              <p>{{cookie.descipt}}</p>
+
+              <p class="price">{{cookie.price}}</p>
+
+              <a href="#">LEARN MORE</a>
+
+             </div>
 
 
-          </div><!--end product-->
 
          
 

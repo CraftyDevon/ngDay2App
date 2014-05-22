@@ -1,6 +1,6 @@
 'use strict';
 
-var cookieStore = angular.module('ngday2App')
+angular.module('theCookieStore')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
@@ -11,28 +11,28 @@ var cookieStore = angular.module('ngday2App')
     $scope.cookieType = [
 
     {'name': 'Chocolate Extreme',
-     'thumb': 'imgs/cet.png',
+     'thumb': 'http://placehold.it/150x150" alt="">',
      'descipt': 'An amazing mix of all things chocolate',
      'image': 'cef.png',
      'price': '5.00',
      'id': '1',
     },
     {'name': 'The Original Chocolate Chip',
-     'thumb': 'imgs/cet.png',
+     'thumb': 'http://placehold.it/150x150" alt="">',
      'descipt': 'An amazing mix of all things chocolate',
      'image': 'cef.png',
      'price': '5.00',
      'id': '2',
     },
     {'name': 'Red Velvet Surpreme',
-     'thumb': 'imgs/cet.png',
+     'thumb': 'http://placehold.it/150x150" alt="">',
      'descipt': 'An amazing mix of all things chocolate',
      'image': 'cef.png',
      'price': '5.00',
      'id': '3',
     },
     {'name': 'White Chocolate Mac',
-     'thumb': 'imgs/cet.png',
+     'thumb': 'http://placehold.it/150x150" alt="">',
      'descipt': 'An amazing mix of all things chocolate',
      'image': 'cef.png',
      'price': '5.00',
@@ -44,17 +44,4 @@ var cookieStore = angular.module('ngday2App')
 
 
 
-
-  	cookieStore.controller('detailCtrl', function($scope, $routeParams){
-
-    $scope.productReviews = [
-
-
-    ];
-    });
-
-    cookieStore.controller('cartCtrl', function($scope, $routeParams){
-
-    
-    });
 
