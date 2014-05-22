@@ -1,6 +1,6 @@
 angular.module('ngday2App')
-	.factory('ProductService', function($resource) {
-		return $resource('http://tiy-fee-rest.herokuapp.com/collections/theCookieStore/:id', 
+	.factory('ProductsService', function($resource) {
+		return $resource('http://tiy-fee-rest.herokuapp.com/collections/devStore/:id', 
 		{
 			id: '@_id'
 		}, 

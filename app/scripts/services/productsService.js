@@ -1,8 +1,8 @@
 angular.module('ngday2App')
 	.factory('ProductsService', function($resource){
-		return $resource('http://tiy-fee-rest.herokuapp.com/collections/theCookieStore', {},
+		return $resource('http://tiy-fee-rest.herokuapp.com/collections/devStore', {},
 			{
-				getAllProducts: {
+				showProduct: {
 					method: 'GET',
 					isArray: true
 				},
