@@ -20,11 +20,11 @@ angular.module('ngday2App', [
         templateUrl: 'views/products.html',
         controller: 'ProductsCtrl'
       })
-      .when('/product/:id', {
+      .when('/:id', {
         templateUrl: 'views/detail.html',
         controller: 'ProductCtrl'
       })
-      .when('/product/:id/edit', {
+      .when('/:id/edit', {
         templateUrl: 'views/editProduct.html',
         controller: 'ProductCtrl'
       })

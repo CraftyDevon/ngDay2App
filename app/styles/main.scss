@@ -186,3 +186,63 @@ footer{
 .productDetails{
     padding: 30px 0 0 0;
 }
+
+
+.cookieAdder{
+
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+        padding: 50px 0 50px 0;
+    }
+
+    input{
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+
+    }
+
+    textarea{
+        display: block;
+        width: 40%;
+        margin: 20px auto; 
+    }
+
+    button{
+        display: block;
+        width: 125px;
+        margin: 0 auto;
+        border: 0;
+    }
+}
+
+
+.productEditer{
+
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+        padding: 50px 0 50px 0;
+    }
+
+    input{
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+
+    }
+
+    textarea{
+        display: block;
+        width: 40%;
+        margin: 20px auto; 
+    }
+
+    button{
+        display: block;
+        width: 125px;
+        margin: 0 auto;
+        border: 0;
+    }
+}

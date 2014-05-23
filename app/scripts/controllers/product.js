@@ -10,7 +10,7 @@ angular.module('ngday2App')
 
 		$scope.delete = function() {
 			ProductService.deleteProduct({ id: $routeParams.id });
-			$location.path('/cookies');
+			$location.path('/products');
 		};
 		// editing
 		// deleting

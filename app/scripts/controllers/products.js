@@ -7,7 +7,7 @@ angular.module('ngday2App')
 		};
 		$scope.createProduct = function(product) {
 			ProductsService.createNewProduct(product);
-			$location.path('/cookies');
+			$location.path('/products');
 		};
 
 

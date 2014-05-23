@@ -41639,3 +41639,133 @@ body {
 .productDetails {
   padding: 30px 0 0 0;
 }
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/DevonHicks\/Desktop\/tiyGoodies\/ngDay2App\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003193;
+  }
+}
+
+.cookieAdder h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 50px 0 50px 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/DevonHicks\/Desktop\/tiyGoodies\/ngDay2App\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003199;
+  }
+}
+
+.cookieAdder input {
+  display: block;
+  width: 40%;
+  margin: 20px auto;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/DevonHicks\/Desktop\/tiyGoodies\/ngDay2App\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003206;
+  }
+}
+
+.cookieAdder textarea {
+  display: block;
+  width: 40%;
+  margin: 20px auto;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/DevonHicks\/Desktop\/tiyGoodies\/ngDay2App\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003212;
+  }
+}
+
+.cookieAdder button {
+  display: block;
+  width: 125px;
+  margin: 0 auto;
+  border: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/DevonHicks\/Desktop\/tiyGoodies\/ngDay2App\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003223;
+  }
+}
+
+.productEditer h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 50px 0 50px 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/DevonHicks\/Desktop\/tiyGoodies\/ngDay2App\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003229;
+  }
+}
+
+.productEditer input {
+  display: block;
+  width: 40%;
+  margin: 20px auto;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/DevonHicks\/Desktop\/tiyGoodies\/ngDay2App\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003236;
+  }
+}
+
+.productEditer textarea {
+  display: block;
+  width: 40%;
+  margin: 20px auto;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/DevonHicks\/Desktop\/tiyGoodies\/ngDay2App\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003242;
+  }
+}
+
+.productEditer button {
+  display: block;
+  width: 125px;
+  margin: 0 auto;
+  border: 0;
+}
