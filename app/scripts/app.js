@@ -14,11 +14,11 @@ angular.module('ngday2App', [
       })
         .when('/addProduct', {
         templateUrl: 'views/addProduct.html',
-        controller: 'ProductCtrl'
+        controller: 'ProductsCtrl'
       })
         .when('/products', {
         templateUrl: 'views/products.html',
-        controller: 'ProductCtrl'
+        controller: 'ProductSCtrl'
       })
       .when('/product/:id', {
         templateUrl: 'views/detail.html',

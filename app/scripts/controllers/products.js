@@ -1,7 +1,7 @@
 angular.module('ngday2App')
-	.controller('ProductCtrl', ['$scope', '$location', 'ProductsService', function($scope, $location, ProductsService) {
+	.controller('ProductsCtrl', ['$scope', '$location', 'ProductsService', function($scope, $location, ProductsService) {
 
-		$scope.products = ProductsService.getAllProducts();
+		$scope.products = ProductsService.showProduct();
 		$scope.addProduct = function() {
 			$location.path('/addProduct');
 		};
