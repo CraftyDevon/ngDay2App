@@ -5,7 +5,7 @@ angular.module('ngday2App')
 			id: '@_id'
 		}, 
 		{
-			showProduct: { method: 'GET'	},
+			getAllProducts: { method: 'GET'	},
 			updateProduct: { method: 'PUT'	},
 			deleteProduct: { method: 'DELETE'	}
 

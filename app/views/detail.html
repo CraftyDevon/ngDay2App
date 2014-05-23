@@ -41,14 +41,10 @@
 
     <div class="col-md-6">
       
-      <h2>{{post.name}}</h2>
-
-      <p>{{product.price}}</p>
-
+     <h2>{{product.title}}</h2>
       <p>{{product.description}}</p>
-      <a href="#/{{product._id}}/edit">Edit</a>
 
-      <button class="pull-right">Order Now</button>
+    <p><a href="#/blog/{{post._id}}/edit">Edit</a> | <a href="" ng-click="delete()">Delete</a></p>
 
 
 

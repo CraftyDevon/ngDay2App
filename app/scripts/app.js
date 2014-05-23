@@ -18,7 +18,7 @@ angular.module('ngday2App', [
       })
         .when('/products', {
         templateUrl: 'views/products.html',
-        controller: 'ProductSCtrl'
+        controller: 'ProductsCtrl'
       })
       .when('/product/:id', {
         templateUrl: 'views/detail.html',

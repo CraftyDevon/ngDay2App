@@ -26,20 +26,15 @@
 
 <div class="row">
 
-  <div class="col-md-12">
 
-    <button ng-click="createProduct(product)">Add Product</button>
-<article ng-repeat="cookie in cookies">
+
+<div class="col-md-3" ng-repeat="product in products">
 	
-		<h2>{{cookie.name}}</h2>
-		<p>{{cookie.description}}</p>
-		<p><a href="#/{{cookie._id}}">View More</a></p>
-	<hr>
-</article>
-
-
-  
+		<h2>{{product.name}}</h2>
+		<p>{{product.description}}</p>
+		<p><a href="#/{{product._id}}">View More</a></p>
 </div>
+
 </div><!--end row-->
 
 
