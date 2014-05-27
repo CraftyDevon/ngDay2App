@@ -4,13 +4,13 @@ angular.module('ngday2App', [
     'ngCookies',
     'ngResource',
     'ngSanitize',
-    'ngRoute'
+    'ngRoute',
+    'ngday2App.directives'
   ])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
       })
         .when('/addProduct', {
         templateUrl: 'views/addProduct.html',
@@ -29,13 +29,18 @@ angular.module('ngday2App', [
         controller: 'ProductCtrl'
       })
       .when('/cart', {
-        templateUrl: 'views/cart.html',
-        controller: 'ProductCtrl'
+        templateUrl: 'views/shoppingcart.html',
       })
           .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'ProductCtrl'
+      })    
+
+        .when('/test', {
+        templateUrl: 'views/testview.html',
+        controller: 'ProductCtrl'
       })
+
       .otherwise({
         redirectTo: '/'
       });
