@@ -1,6 +1,11 @@
 angular.module('ngday2App')
 	.controller('CartCtrl', ['$scope', '$routeParams', '$location', 'crtService', function($scope, $routeParams, $location, crtService) {
 		
+		
+		$scope.cartItems = crtService.showCart({ id: $routeParams.id });
+
+
+
 		$scope.addToCart = function() {
 			crtService.addToCart($scope.product);
 			$location.path('/shoppingcart');
@@ -12,16 +17,12 @@ angular.module('ngday2App')
 			crtServices.updateQty($scope.product);
 			$location.path('/cookies/' + $routeParams.id);
 		};
-
-
-		$scope.delete = function() {
-			crtServices.deleteCartProduct({ id: $routeParams.id });
-			$location.path('/products');
-		};
 		// editing
 		// deleting
 		// showing
 
 	}]);
+
+		
 
 		

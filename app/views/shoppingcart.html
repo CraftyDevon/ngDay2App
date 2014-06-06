@@ -24,16 +24,39 @@
 
 </header><!--end header-->
 
-
+<div ng-controller="CartCtrl">
 
 <div class="shoppingcart">
+
+<div class="row">
+
+  <div class="col-md-12">
   
+<ul ng-repeat="product in cartItems">
+  
+    <li>{{product.name}} {{product.price | currency}}  each</li>
 
 
 
+
+<a href="" ng-click="deleteCartProduct()">Delete</a>
+
+
+
+
+</ul><!--end col-->
+
+</div>
+
+</div><!--end row-->
 
 
 </div><!--end shopping cart-->
+
+</div><!--end wrapper-->
+
+  <h3>Total: {{total}}</h3>
+
 
 
 
